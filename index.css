@@ -5,14 +5,29 @@ body
 	background-color: #E0FFFF;
 }
 
-.imagemTOPO
+.TextHeader
 {
-	width: 800px;
-	height: 333px;
+	font-size: 150px;
 }
 
-.barraMenu
+.ImagemTOPO
+{
+	width: 500px;
+	height: 200px;
+}
+
+.BarraMenu
 {
 	background-color: #00B2EE;
 	padding: 10px;
+}
+
+.Menu
+{
+	
+}
+
+.Menu1
+{
+	
 }
