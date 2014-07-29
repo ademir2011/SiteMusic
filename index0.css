@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+body {
+    
+}
+
+#fundo-externo {
+    overflow: hidden; /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    width: 100%;
+    height: 100%;
+    position: relative; /* criamos um contexto para posicionamento */
+}
+ 
+#fundo {
+    position: fixed; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
+    width: 100%;
+    height: 100%;
+}
+ 
+#fundo img {
+    width: 100%; /* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
+    height: 100%;
+    position: absolute;
+}
+
+.button
+{
+	
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background-color: white;
+   
+}
+
+.button p
+{
+	text-align: center;
+	padding-top: 11px;
+	color: black;
+	font-size: 22px;
+	font-family: arial;
+}
