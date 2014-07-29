@@ -1,0 +1,18 @@
+
+body
+{
+	margin:0px;
+	background-color: #E0FFFF;
+}
+
+.imagemTOPO
+{
+	width: 800px;
+	height: 333px;
+}
+
+.barraMenu
+{
+	background-color: #00B2EE;
+	padding: 10px;
+}
