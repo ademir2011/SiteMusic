@@ -11,9 +11,22 @@ body, html {
     background-color: #E0FFFF;
 }
 
+
+@font-face {
+    font-family: "Abc";
+    src: url('fonts/psycha3.ttf');
+}
+
+
+
 .TextHeader
 {
-	font-size: 150px;
+	
+}
+
+.TextHeader td
+{
+	font-size: 50px;
 }
 
 .ImagemTOPO
@@ -27,16 +40,17 @@ body, html {
 	text-align: center;
 	background-color: #00B2EE;
 	padding: 10px;
+	font-size: 20px;
 }
 
-.Menu
+.Menu a
 {
-	
+	font-family: "Abc";
 }
 
-.Menu1
+.Secoes
 {
-	
+	font-family: "Abc";
 }
 
 .SecaoEsq
