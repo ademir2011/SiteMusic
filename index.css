@@ -7,7 +7,6 @@
 body, html {
     width: 100%;
     height: 100%;
-    font-family: Arial, Tahoma, sans-serif;
     background-color: #E0FFFF;
 }
 
@@ -19,33 +18,57 @@ body, html {
 
 
 
-.TextHeader
+.Header
+{
+	
+	background-color: #9AE7FF;
+	width: 100%;
+	height: 200px;
+
+}
+
+.Header tr
 {
 	
 }
 
-.TextHeader td
+.Header a
 {
 	font-size: 50px;
+	font-family: Arial;
+	color: #434444;
 }
 
 .ImagemTOPO
 {
-	width: 500px;
+	width: 250px;
 	height: 200px;
 }
 
 .BarraMenu
 {
-	text-align: center;
+	float:left;
+	position: relative;
+	width: 100%;	
 	background-color: #00B2EE;
 	padding: 10px;
-	font-size: 20px;
 }
 
-.Menu a
+.BarraMenu a
 {
-	font-family: "Abc";
+	width: 100%;
+	font-size: 20px;
+	padding: 11.5px;
+	font-family: Verdana;
+	text-decoration: none;
+	color: #EEEEEE;
+}
+
+.BarraMenu a:hover
+{
+	/*transition-duration: 0.1s;*/
+	background-color: #00C0FF;
+	color: #F1F1F1;
 }
 
 .Secoes
@@ -53,23 +76,45 @@ body, html {
 	font-family: "Abc";
 }
 
-.SecaoEsq
-{
-	background-color: #000000; 
-	width: 250px;
-	height: 50px;
+
+.div1 
+{	
+	height: 350px;
+	margin-top: 100px;
+	margin-right: 150px;
+	background-color: #818BA4;
+	opacity: 0.5;
+
+	-webkit-box-shadow: 6px 6px 5px 0px rgba(5, 14, 18, 0.75);
+	-moz-box-shadow:    6px 6px 5px 0px rgba(5, 14, 18, 0.75);
+	box-shadow:         6px 6px 5px 0px rgba(5, 14, 18, 0.75);
+
 }
 
-.SecaoCenter
-{
-	background-color: #000000; 
-	width: 500px;
-	height: 50px;
+.div2
+{	
+	height: 350px;
+	margin-top: 70px;
+	margin-left: 150px;
+	background-color: #818BA4;
+	opacity: 0.5;
+	
+	-webkit-box-shadow: -8px 6px 5px 0px rgba(5, 14, 18, 0.75);
+	-moz-box-shadow:    -8px 6px 5px 0px rgba(5, 14, 18, 0.75);
+	box-shadow:         -8px 6px 5px 0px rgba(5, 14, 18, 0.75);
+
 }
 
-.SecaoDir
-{
-	background-color: #000000; 
-	width: 250px;
-	height: 50px;
+.div3 
+{	
+	height: 350px;
+	margin-top: 70px;
+	margin-right: 150px;
+	background-color: #818BA4;
+	opacity: 0.5;
+	
+	-webkit-box-shadow: 6px 6px 5px 0px rgba(5, 14, 18, 0.75);
+	-moz-box-shadow:    6px 6px 5px 0px rgba(5, 14, 18, 0.75);
+	box-shadow:         6px 6px 5px 0px rgba(5, 14, 18, 0.75);
+
 }
