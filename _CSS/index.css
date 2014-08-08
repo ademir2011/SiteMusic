@@ -31,7 +31,7 @@ body, html {
 
 .BarraMenu ul li
 {
-	line-height: 147px;
+	line-height: 149px;
 	margin: auto;
 	padding-right: 40px;
 	padding-left: 40px;
@@ -49,7 +49,7 @@ body, html {
 	color: #EEEEEE;
 	font-size: 20px;
 	padding: 10px 0;
-	font-family: Verdana;
+	font-family: Corbel;
 	text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ body, html {
 	line-height: 47.5px;
 	color: white;
 	text-decoration: none;
-	font-family: Verdana;
+	font-family: Corbel;
 	font-size: 22.5px;
 }
 

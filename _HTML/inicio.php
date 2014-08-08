@@ -91,7 +91,7 @@ padding -> espaçamento
 line-height: 50px; -> alinha o texto verticalmente!
 controls -> abilita controles | autoplay -> inicia automaticamente
 list-style:none; -> serve para retirar os pontos do ul li
-
+input[type=submit] -> personalizar botao
 
 
 -->
