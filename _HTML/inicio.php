@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../_CSS/index.css">
+	<link rel="stylesheet" type="text/css" href="../_CSS/rodape.css">
 	<title>MUSIC SITE</title>
 
 </head>
@@ -74,6 +75,9 @@
 
 -->
 
+
+<?php require '../_PHP/rodape.php' ?>
+
 </body>
 </html>
 
@@ -93,5 +97,12 @@ controls -> abilita controles | autoplay -> inicia automaticamente
 list-style:none; -> serve para retirar os pontos do ul li
 input[type=submit] -> personalizar botao
 
+
+ENVIO DE DADOS FORMULARIO
+
+-- action -> saber qual arquivo php
+-- method -> saber que o metódo a ser chado é o POST
+
+recebendo $_POST["name"]
 
 -->
