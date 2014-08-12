@@ -17,6 +17,19 @@ body, html {
     src: url('fonts/psycha3.ttf');
 }
 
+.painelWelcome
+{	
+	position: absolute;
+	text-align: center;
+	float: left;
+	font-family: Corbel;
+	color: #59C16C;
+	background-color: #4C4C4C;
+	margin-top: 50px;
+	width: 200px;
+	height: 40px;
+}
+
 .BarraMenu
 {
 	position: relative;

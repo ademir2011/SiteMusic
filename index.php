@@ -11,15 +11,20 @@
         <img src="images/fundo.jpg" alt="" />
     </div>
 
-<section class="painel">
-		<ul>
-			<li>Nome: <input type="text" name="nomePainel"/></li><br>
-			<li>Sobrenome: <input type="text" name="sobrenomePainel"/></li><br>
-			<li>
-				<a href="_HTML/inicio.php"><input type="submit" value="PLAY"/></a>
-			</li>
-		</ul>
-</section>
+
+<div class="div">
+	
+</div>
+
+<form class="painel" action="_HTML/inicio.php" method="POST">
+	<ul>
+		<li>Nome: <input type="text" name="nomePainel"/></li><br>
+		<li>Sobrenome: <input type="text" name="sobrenomePainel"/></li><br>
+		<li>
+			<input type="submit" value="PLAY"/>
+		</li>
+	</ul>
+</form>
 
 </body>
 </html>
