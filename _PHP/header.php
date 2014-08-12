@@ -3,11 +3,19 @@
 
 	<div class="painelWelcome">
 		<?php 
-			if ($_POST)
-			{
-				echo "Seja Bem vindo ".'<br>';
-				echo $_POST["nomePainel"]."_".$_POST["sobrenomePainel"]."!!!";
-			}
+
+			setcookie("cNome", $_POST['nomePainel'], time()+(3*60));
+			setcookie("cSobrenome", $_POST['sobrenomePainel'], time()+(3*60));
+
+			echo "<a>";
+			if (isset($_COOKIE["cNome"]) && isset($_COOKIE["cSobrenome"]))
+				echo "Bem vindo " . $_COOKIE["cNome"] . $_COOKIE["cSobrenome"]." !";
+			else
+				echo "Seja bem vindo !<br>";
+			echo "</a>";
+
+			print_r($_COOKIE);
+
 		?>
 	</div>
 

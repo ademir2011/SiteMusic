@@ -18,8 +18,8 @@
 
 <form class="painel" action="_HTML/inicio.php" method="POST">
 	<ul>
-		<li>Nome: <input type="text" name="nomePainel"/></li><br>
-		<li>Sobrenome: <input type="text" name="sobrenomePainel"/></li><br>
+		<li>Nome<br><input type="text" name="nomePainel"  /></br></li>
+		<li>Sobrenome<br><input type="text" name="sobrenomePainel"/></li><br>
 		<li>
 			<input type="submit" value="PLAY"/>
 		</li>
