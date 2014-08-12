@@ -17,30 +17,44 @@ body {
 #fundo img {
     width: 100%;
     max-height: 100%;
-  
     position: fixed;
 }
 
-.BtInicial 
+
+
+.painel ul
 {
-    margin-top: 280px;
-	position: relative;
-	width: 200px;
-	height: 50px;
-	background-color: #ABABAB;
-    opacity: 0.8;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: Corbel;
-    color: white;
+    list-style: none;
+    margin-top: 270px;
+    margin-left: 600px;
+    position: absolute;
+    background-color: #494949;
+    width: 300px;
+    height: 300px; 
+    filter: alpha(opacity=65);
+    border-radius: 20px;
 }
 
-
-
-.BtInicial:hover
+.painel ul li
 {
-    transition-duration: 0.5s;
-    opacity: 1;
+    margin-top: 43px;
+    text-align: center;
+    font-family: Corbel, sans-serif;
+    color: #59C16C;
+}
+
+input[type=submit]{
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    font-size: 20px;
+    background-color: #59C16C;
+    color: #4C4C4C;
+}
+
+input[type=submit]:hover{
+    color: #59C16C;
+    background-color: #4C4C4C;
 }
 
 
