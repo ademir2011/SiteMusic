@@ -9,70 +9,12 @@
 </head>
 <body>
 
-<?php 
-
-	require '../_PHP/header.php';
-
-?>
+<?php require '../_PHP/header.php'; ?>
 
 <!--
 <audio autoplay="autoplay">
     <source src="http://a.tumblr.com/tumblr_m5h9k8Bh3S1r2r773o1.mp3" />
 </audio>
--->
-<!--
-
-<section>
-	<div class="div1">
-		<ul>
-			<a href=""><li>INICIO1</li></a>
-			<a href=""><li>INICIO2</li></a>
-			<a href=""><li>INICIO3</li></a>
-			<a href=""><li>INICIO4</li></a>
-		</ul>
-		<table>
-			<tr>
-				<td>
-					<video width="500" height="250"  loop controls>
-						<source src="../videos/orq.mp4" type="video/mp4" >
-						Your browser does not support the video tag.
-					</video>
-				</td>
-				<td>
-					
-				</td>
-			</tr>
-			<tr>
-				<td>
-					
-				</td>
-			</tr>
-		</table>
-	</div>
-</section>
-
-
-
-<div class="div2">
-	<table>
-		<tr>
-			<td>
-
-			</td>
-		</tr>
-	</table>
-</div>
-
-<div class="div3">
-	<table>
-		<tr>
-			<td>
-
-			</td>
-		</tr>
-	</table>
-</div>
-
 -->
 
 

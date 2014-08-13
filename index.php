@@ -16,15 +16,35 @@
 	
 </div>
 
-<form class="painel" action="_HTML/inicio.php" method="POST">
-	<ul>
-		<li>Nome<br><input type="text" name="nomePainel"  /></br></li>
-		<li>Sobrenome<br><input type="text" name="sobrenomePainel"/></li><br>
-		<li>
-			<input type="submit" value="PLAY"/>
-		</li>
-	</ul>
+<form class="painel"  method="POST">
+	<fieldset>
+
+	<?php 
+		if (isset($_POST['play']))
+		{
+			$nome = $_POST['nome'];
+			$sobrenome = $_POST['sobrenome'];
+		
+			if (empty($nome) || empty($sobrenome)) 
+			{
+			echo 'Algum campo esta vazio !!!'.'<br>';
+			}
+		}
+	?>
+
+		<label>
+			<span>Nome: </span><br/><br/>
+			<input type="text" name="nome" /><br/><br/>
+		</label>
+		<label>
+			<span>Sobrenome:</span><br/><br/>
+			<input type="text" name="sobrenome" /><br/><br/>
+		</label>
+			<input type="submit" value="PLAY" name="play" />
+	</fieldset>
 </form>
 
 </body>
 </html>
+
+

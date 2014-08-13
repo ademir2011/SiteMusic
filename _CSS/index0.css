@@ -27,26 +27,29 @@ body, html {
     opacity: 0.5;
 }
 
-.painel ul
+
+
+.painel 
 {
     list-style: none;
-    margin-top: 270px;
     margin-left: 600px;
     position: absolute;
     width: 300px;
-    height: 300px; 
+    height: 300px;
+    color: #59C16C;
+    font-family: Corbel, sans-serif; 
+    text-align: center;
+    margin-top: 308px;
+    border: 0px;
 }
 
-.painel ul li
+.painel fieldset
 {
-    margin-top: 35px;
-    text-align: center;
-    font-family: Corbel, sans-serif;
-    color: #59C16C;
+    border: 0px;
 }
 
 input[type=submit]{
-    width: 154px;
+    width: 153px;
     height: 50px;
     border: 0px;
     font-size: 20px;
