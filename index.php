@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="_CSS/index0.css">
+	<link rel="stylesheet" type="text/css" href="css/index0.css">
 	<title>Welcome!</title>
 </head>
 <body style="width:100%;height:100%"> 
@@ -16,7 +16,7 @@
 	
 </div>
 
-<form class="painel"  method="POST">
+<form class="painel" action="pages/inicio.php" method="POST">
 	<fieldset>
 
 	<?php 
@@ -27,7 +27,7 @@
 		
 			if (empty($nome) || empty($sobrenome)) 
 			{
-			echo 'Algum campo esta vazio !!!'.'<br>';
+				echo 'Algum campo esta vazio !!!'.'<br>';
 			}
 		}
 	?>

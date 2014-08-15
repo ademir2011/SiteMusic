@@ -2,29 +2,38 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../_CSS/index.css">
-	<link rel="stylesheet" type="text/css" href="../_CSS/rodape.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/rodape.css">
 	<title>MUSIC SITE</title>
 
 </head>
 <body>
 
-<?php require '../_PHP/header.php'; ?>
+<?php include_once('../include/header.php'); ?>
 
-<!--
-<audio autoplay="autoplay">
-    <source src="http://a.tumblr.com/tumblr_m5h9k8Bh3S1r2r773o1.mp3" />
-</audio>
--->
+<?php
+	$page = $_GET['page'];
+	$permite = array('contato');
 
+	if (!isset($page) || $page = '') {
+		include('inicio')
+	}
+?>
 
-<?php require '../_PHP/rodape.php' ?>
+<?php include_once('../include/rodape.php'); ?>
 
 </body>
 </html>
 
 
 <!-- 
+
+SOM 
+
+<audio autoplay="autoplay">
+    <source src="http://a.tumblr.com/tumblr_m5h9k8Bh3S1r2r773o1.mp3" />
+</audio>
+
 
 target="_blank" -> abre uma nova aba
 width="42" height="42" -> limita o tamanho da imagem

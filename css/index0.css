@@ -18,28 +18,25 @@ body, html {
 }
 
 .div{
-    margin-top: 270px;
-    margin-left: 600px;
+    width: 100%;
+    height: 300px;
+    margin-top: 13em;
     position: absolute;
-    background-color: #4C4C4C;
-    width: 300px;
-    height: 300px; 
+    background-color: #4C4C4C; 
     opacity: 0.5;
 }
-
-
 
 .painel 
 {
     list-style: none;
-    margin-left: 600px;
+    margin-left: 32em;
     position: absolute;
     width: 300px;
     height: 300px;
     color: #59C16C;
     font-family: Corbel, sans-serif; 
     text-align: center;
-    margin-top: 308px;
+    margin-top: 250px;
     border: 0px;
 }
 
@@ -58,6 +55,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
+    transition-duration:0.5s;
     color: #59C16C;
     background-color:transparent;
 }
