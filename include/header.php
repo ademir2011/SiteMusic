@@ -1,6 +1,7 @@
 <!-- Cabeçalho -->
 <nav class="BarraMenu">
 	<div class="painelWelcome">
+		<!-- 
 		<?php 
 
 			$nome = $_POST['nomePainel'];
@@ -17,13 +18,15 @@
 			echo "</a>";
 
 		?>
+		-->
+		
 	</div>
 	<center>
 		<ul>
-			<li><a href="../pages/inicio.php">INICIO</a></li>
-			<li><a href="../pages/partitura.php">ARRANJOS</a></li>
-			<li><a href="../pages/cursos.php">CURSOS</a></li>
-			<li><a href="../pages/contato.php">CONTATO</a></li>
+			<li><a href="?page=home">INICIO</a></li>
+			<li><a href="?page=partitura">ARRANJOS</a></li>
+			<li><a href="?page=cursos">CURSOS</a></li>
+			<li><a href="?page=contato">CONTATO</a></li>
 		</ul>
 	</center>
 </nav>

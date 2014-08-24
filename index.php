@@ -16,7 +16,7 @@
 	
 </div>
 
-<form class="painel" action="pages/inicio.php" method="POST">
+<form class="painel" action="inicio.php" method="POST">
 	<fieldset>
 
 	<?php 

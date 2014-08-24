@@ -11,7 +11,10 @@ body, html {
     background-color: #4C4C4C;
 }
 
-
+h1{
+	font-size: 20px;
+	float: left;
+}
 @font-face {
     font-family: "Abc";
     src: url('fonts/psycha3.ttf');
